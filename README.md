@@ -1,3 +1,18 @@
+Ao abrir o projeto(com o comando 'npm start'), é necessárrio que o usuário siga os passos seguintes:
+. Escolher umas das cartas e memoriza-la.
+
+. clicar no monte(pile), onde a carta se encontra. 
+obs:Nao clique duas vezes.
+
+.Após clicar no monte de sua carta, clique em deal Cards.
+
+.Ao clicar no deal cards, as cartas vao ser destribuidas novamente,
+e entao o processo sera repetido mais duas vezes.
+
+.Ao clicar no deal cards pela terceira vez o usuario sera notificado na carta que ele estava pensando.
+
+.Para rodar novamente basta o usuario atualizar a pagina.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

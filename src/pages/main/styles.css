@@ -1,0 +1,26 @@
+.column {
+    float: left;
+    width: 33.33%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .row button {
+    padding: 10px;
+    border-radius: 10px;
+    border: 5;
+    background: darkred;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+
