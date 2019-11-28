@@ -10,6 +10,7 @@ export default class Main extends Component {
         pile3: [],
         deck1: [],
         counter: 0,
+        clic: false,
     };
 
     componentDidMount() {
@@ -72,6 +73,7 @@ export default class Main extends Component {
                     <button type = "submit" 
                         onClick ={ () => {
                             this.giveCards(this.state.pile2, this.state.pile1, this.state.pile3);
+                            this.setState({clic: true});
                      }}>Pile 1</button>
                 </div>
                 <div className="column">
@@ -79,6 +81,7 @@ export default class Main extends Component {
                     <button type = "submit" 
                         onClick ={ () => {
                             this.giveCards(this.state.pile1, this.state.pile2, this.state.pile3);
+                            this.setState({clic: true});
                      }}>Pile 2</button>
                 </div>
                 <div className="column">
@@ -86,11 +89,13 @@ export default class Main extends Component {
                     <button type = "submit" 
                         onClick ={ () => {
                             this.giveCards(this.state.pile2, this.state.pile3, this.state.pile1);
+                            this.setState({clic: true});
                      }}>Pile 3</button>
                 </div>
                 <button  type = 'submit' 
                     onClick = {() => {
-                        this.loadPiles(this.state.deck1)
+                        if(this.state.clic){this.loadPiles(this.state.deck1)}
+                        else{alert("select a pile !");}
                 }}>Deal cards</button>
             </div>
             

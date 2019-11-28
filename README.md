@@ -1,3 +1,5 @@
+NECESSARIO NPM INSTALDO.
+
 Ao abrir o projeto(com o comando 'npm start'), é necessárrio que o usuário siga os passos seguintes:
 . Escolher umas das cartas e memoriza-la.
 
@@ -12,6 +14,8 @@ e entao o processo sera repetido mais duas vezes.
 .Ao clicar no deal cards pela terceira vez o usuario sera notificado na carta que ele estava pensando.
 
 .Para rodar novamente basta o usuario atualizar a pagina.
+
+********************************************************************************************************
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
